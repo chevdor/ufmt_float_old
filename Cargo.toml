@@ -35,3 +35,6 @@ version = "0.2"
 default = ["maths"]
 maths = ["micromath"]
 std = ["ufmt/std"]
+
+[dev-dependencies]
+heapless = { version = "0.7", features = ["ufmt-impl"] }
